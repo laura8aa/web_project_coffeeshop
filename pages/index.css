@@ -59,7 +59,10 @@
   display: flex;
   color: #000000;
   text-decoration: none;
-  font-weight: bold;
+  font-style: normal;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .ul {
@@ -68,20 +71,19 @@
   display: flex;
 }
 
-.header__content {
+.header__span-accent {
   display: flex;
-  flex-direction: row;
-}
-
-.header__title {
   font-size: 58px;
   line-height: 72px;
   font-weight: normal;
   max-width: 709px;
   color: #2f80ed;
   font-style: italic;
+  font-family: "Noto Serif", Times, sans-serif;
 }
-.header__span-accent {
+.header__title {
+  display: flex;
+  flex-direction: column;
   letter-spacing: -1px;
   font-size: 58px;
   line-height: 72px;
@@ -96,6 +98,7 @@
   line-height: 30px;
   max-width: 683px;
   margin-top: 0;
+  font-family: "Noto Serif", Times, sans-serif;
 }
 
 .header__image {
@@ -124,13 +127,13 @@
   position: absolute;
 }
 
-.footer__schedule {
+.header__schedule {
   list-style-type: none;
   padding: 0;
   flex-direction: column;
   margin-left: 0;
 }
-.footer__address {
+.header__address {
   right: 80px;
   bottom: 0;
   position: absolute;
@@ -140,7 +143,7 @@
   line-height: 20px;
 }
 
-.footer__list-item {
+.header__list-item {
   margin: 0;
   list-style: none;
 }
@@ -165,6 +168,7 @@
 }
 
 .subtitle {
+  font-family: "Noto Serif", Times, sans-serif;
   margin-left: 80px;
   margin-bottom: 80px;
   color: #ffffff;
