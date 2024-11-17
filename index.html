@@ -104,7 +104,41 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reserva una mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Nombre*</label>
+              <input class="form__input" type="text" id="name" name="name" placeholder="Nombre" required="" />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="number">Numero de comensales*</label>
+              <input class="form__input" type="number" id="number" name="number" placeholder="1-8" required="" />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="date">Fecha y hora*</label>
+              <input class="form__input" type="date" id="date" name="date" required="" />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="email">Tu corrreo electronico*</label>
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                required=""
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <button class="form__button" type="submit">Reserva mesa</button>
+            </fieldset>
+            <fieldset class="form__fieldset form__fieldset_terminos">
+              <input class="form__checkbox" type="checkbox" id="checkbox" name="checkbox" required="" />
+              <label class="form__lable form__lable_direction_left" for="checkbox">Acepto los términos de uso*</label>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
