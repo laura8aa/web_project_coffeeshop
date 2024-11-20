@@ -1,3 +1,11 @@
+.reservation__form {
+  max-width: 385px;
+  margin: 80px 32px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+}
+
 .reservation {
   display: flex;
   flex-direction: column;
