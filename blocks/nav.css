@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style-type: none;
+  padding-right: 80px;
+}
+
+.nav__logo {
+  position: relative;
+  display: block;
+  width: 105px;
+  height: 39px;
+  margin-bottom: 183px;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  column-gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__link {
+  list-style-type: none;
+  display: flex;
+  color: #000000;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.nav__link:hover {
+  color: #2f80ed;
+}
+
+.ul {
+  list-style-type: none;
+  display: flex;
+}
