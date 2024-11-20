@@ -27,7 +27,7 @@
   margin: 80px auto 215px;
   justify-content: center;
 }
-.video-item {
+.recipes__video-item {
   display: flex;
   margin-bottom: 24px;
   column-gap: 40px;
@@ -36,7 +36,7 @@
   height: 273px;
   width: 480px;
 }
-.video-caption {
+.recipes__video-caption {
   display: flex;
   margin-bottom: 215px;
   color: #ffffff;
